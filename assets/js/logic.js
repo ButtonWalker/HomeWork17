@@ -1,5 +1,5 @@
 // Store API link
-var link = "static/dataset/all_month.geojson"
+var link = "assets/dataset/all_month.geojson"
 
 function markerSize(mag) {
   return mag * 25000;
