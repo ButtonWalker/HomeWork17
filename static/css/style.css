@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #map,
+  body,
+  html {
+    height: 98.2%;
+  }
+  
+  
+  /* CSS from the Leaflet-Choropleth documentation */
+  .legend {
+    padding: 16px 18px;
+    font: 14px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    background: red;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .legend i {
+    width: 14px;
+    height: 14px;
+    float: left;
+  
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Set the fixed height of the footer here */
+    height: 4px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: lightgrey;
+    color: black;
+    border-top-style: solid; 
+    border-top-width: 5px; 
+    border-top-color: red;
+  }
+  
+  #footer p {
+    margin: 0;
+    font-size: 16px;
+  }
