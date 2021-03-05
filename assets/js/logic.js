@@ -86,7 +86,7 @@ var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/til
   var myMap = L.map("map", {
     center: [31.57853542647338,-99.580078125],
     zoom: 3,
-    layers: [darkmap, earthquakes]
+    layers: [lightmap, earthquakes]
   });
 
   // Create a layer control
